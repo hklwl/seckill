@@ -20,7 +20,7 @@ public class RedisDao {
 	private String ip;
 
 	public RedisDao(String ip, int port) {
-		logger.info("---------------------------------ip:{},port:{}",ip,port);
+		logger.info("ip:{},port:{}",ip,port);
 		this.port = port;
 		this.ip = ip;
 	}
