@@ -95,7 +95,7 @@ public class SeckillServiceImpl implements SeckillService{
      * @param md5
      * @return
      * @throws SeckillException
-     * @throws RepeteKillException
+     * @throws RepeatKillException
      * @throws SeckillCloseException
      */
     @Transactional
@@ -164,7 +164,7 @@ public class SeckillServiceImpl implements SeckillService{
      * @param md5
      * @return
      * @throws SeckillException
-     * @throws RepeteKillException
+     * @throws RepeatKillException
      * @throws SeckillCloseException
      */
     public SeckillExecution executeSeckillByProcedure(long seckillId, long userPhone, String md5) {
