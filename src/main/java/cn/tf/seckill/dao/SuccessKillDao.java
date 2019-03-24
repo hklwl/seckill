@@ -18,7 +18,7 @@ public interface SuccessKillDao {
 	/**
 	 * 根据id查询
 	 * 
-	 * @param seckill
+	 * @param seckillId
 	 * @return
 	 */
 	SuccessKill  queryByIdWithSeckill(@Param("seckillId")long seckillId,@Param("userPhone")long userPhone);
