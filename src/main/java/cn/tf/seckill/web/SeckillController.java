@@ -80,7 +80,7 @@ public class SeckillController {
 	                                                   @PathVariable("md5")String md5, 
 	                                                   @CookieValue(value = "killPhone", required = false)Long phone){
 	        if(phone == null){
-	            return new SeckillResult<>(false, "未注册");
+	            return new SeckillResult(false, "未注册");
 	        }
 	        
 	        try {
@@ -103,6 +103,6 @@ public class SeckillController {
 	    @ResponseBody
 	    public SeckillResult<Long> time(){
 	        Date now = new Date();
-	        return new SeckillResult<>(true, now.getTime());
+	        return new SeckillResult(true, now.getTime());
 	    }
 }
