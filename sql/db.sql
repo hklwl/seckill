@@ -35,5 +35,3 @@ CREATE TABLE success_kill(
 	KEY idx_create_time(create_time)
 )ENGINE=INNODB AUTO_INCREMENT=1000 DEFAULT CHARSET=utf8 COMMENT '秒杀成功明细表'
 
-SELECT * FROM seckill;
-SELECT * FROM success_kill;
