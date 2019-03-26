@@ -1,9 +1,7 @@
 # 
 基于SSM框架的秒杀网站<br>
 =
-# 利用Maven开发工具搭建项目骨架，整合MyBatis与Spring框架整合实现产品秒杀产品的功能。<br>
--
-
+ 利用Maven开发工具搭建项目骨架，整合MyBatis与Spring框架整合实现产品秒杀产品的功能。<br>
 基于Spring托管Service的实现类，并使用Spring的声明式事务实现Service层的开发。<br>
 使用SpringMVC整合Spring，实现秒杀接口，完成web层编码。<br>
 根据秒杀事务操作具体过程，分析高并发的特点，针对瓶颈进行优化设计<br>
